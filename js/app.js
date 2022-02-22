@@ -12,13 +12,6 @@ $(document).ready(function (){
         })
         
     
-        $('#maltitypeBtn').mouseenter(function() {
-            $('#know').hide(3000);
-        })
-        $('#maltitypeBtn').mouseleave(function() {
-            $('#know').show(3000);
-        })
-    
         $('#fadeOut').click(function() {
             $('#output').fadeOut(4000);
         })
@@ -44,10 +37,4 @@ $(document).ready(function (){
             $('#output').stop();
         })
         
-    
-        $('#mathChain').click(function() {
-            $('#output').hide(2000).fadeIn(4000).animate({
-                width:'50%'
-            },6000);
-        })
     })
